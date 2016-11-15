@@ -3,17 +3,10 @@
 
     .module('fbxnd', [])
 
-    /**
-     * Controller para el manejo de preguntas.
-     * 
-     * @param object $scope
-     * @param object API
-     * @returns
-     */
     .factory('FBXnd', function ($q) {
       /**
        * window.FB extended class
-       * Jose Luis Quintana <https://git.io/joseluisq | MIT License
+       * José Luis Quintana <https://git.io/joseluisq | MIT License
        * Reference: https://developers.facebook.com/docs/javascript/reference/FB.api
        *
        * @param {Object} options - Options
