@@ -8,6 +8,7 @@ angular
   .module('myapp.register', [
     'fbxnd'
   ])
+
   .controller('RegisterCtrl', function (FBXnd) {
     var app = this
 
