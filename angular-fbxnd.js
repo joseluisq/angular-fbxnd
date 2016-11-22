@@ -12,24 +12,15 @@
        * @param {Object} options - Options
        * @param {Function} fn - Callback
        */
-      function FBXnd(options, fn) {
+      function FBXnd(options) {
         if (!(this instanceof FBXnd)) {
-          return new FBXnd(options, fn)
+          return new FBXnd(options)
         }
 
         this.fb = null
         this.ready = false
         this.response = null
         this.options = options
-      }
-
-      function callback(header, response, fn) {
-        if (fn) {
-          fn({
-            'header': header,
-            'response': response
-          })
-        }
       }
 
       /**
