@@ -19,7 +19,6 @@
 
         this.fb = null
         this.ready = false
-        this.response = null
         this.options = options
       }
 
