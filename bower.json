@@ -12,9 +12,8 @@
     "url": "http://git.io/joseluisq"
   },
   "main": [
-    "./angular-fbxnd.js",
+    "./angular-fbxnd.js"
   ],
-  "moduleType": "globals",
   "keywords": [
     "facebook",
     "angular",
@@ -23,7 +22,7 @@
     "bindings"
   ],
   "dependencies": {
-    "angular": ">=1.5.9",
+    "angular": ">=1.5.9"
   },
   "ignore": [
     "**/.*",
