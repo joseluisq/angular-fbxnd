@@ -9,8 +9,7 @@
        * José Luis Quintana <https://git.io/joseluisq | MIT License
        * Reference: https://developers.facebook.com/docs/javascript/reference/FB.api
        *
-       * @param {Object} options - Options
-       * @param {Function} fn - Callback
+       * @param {Object} options - Facebook Options
        */
       function FBXnd(options) {
         if (!(this instanceof FBXnd)) {

@@ -1,0 +1,37 @@
+{
+  "name": "angular-fbxnd",
+  "description": "Angular 1.x bindings for Facebook JSDK",
+  "homepage": "https://github.com/joseluisq/angular-fbxnd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joseluisq/angular-fbxnd.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "José Luis Quintana",
+    "url": "http://git.io/joseluisq"
+  },
+  "main": [
+    "./angular-fbxnd.js",
+  ],
+  "moduleType": "globals",
+  "keywords": [
+    "facebook",
+    "angular",
+    "jsdk",
+    "promise",
+    "bindings"
+  ],
+  "dependencies": {
+    "angular": ">=1.5.9",
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Gruntfile.js",
+    "package.json",
+    "examples",
+    "test"
+  ]
+}
